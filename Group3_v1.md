@@ -5,18 +5,23 @@ The Manitoba Covid Tracker API can be used to programmatically retrieve and anal
 
  
 Manitoba covid case breakdown by health region
-##### Options: 
+#### Endpoints: (all GET requests)
+##### Get all Covid case recoveries in Manitoba  
+- Parameters: 
+  - **region** (string): health regions (***optional***)
+  - **todate** (string): to date (dd.mm.yyyy) (***optional***)
 
-1. GET method 1: get all covid case recoveries in Manitoba.
-    - Parameters: health regions (***optional***), to date (dd.mm.yyyy) (***optional***)
+##### Get all Covid cases in Manitoba  
+- Parameters: 
+  - **fromdate** (string): from date (dd.mm.yyyy) (***optional***)
+  - **todate** (string): to date (dd.mm.yyyy) (***optional***)
 
-2. GET method 2: get all covid cases in Manitoba. 
-    - Parameters: from date (dd.mm.yyyy) (***optional***), to date (dd.mm.yyyy) (***optional***)
+##### Get Covid deaths and hospitalizations  
+- Parameters: 
+  - **region** (string): health regions
 
-3. GET method 3: get covid deaths and hospitalizations. 
-    - Parameters: health regions
 
-#### Sample Request
+#### Sample Requests
 
 ###### Get Recoveries
 
