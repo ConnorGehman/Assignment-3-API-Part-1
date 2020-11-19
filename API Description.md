@@ -24,5 +24,5 @@ Manitoba covid case breakdown by health region
 
 ###### Get Recovery
 ```
-https://api.covidmanitoba.ca/recovery/json?region=bisonnorth&time=30.08.2020
+https://api.covidmanitoba.ca/recovery/json?region=winnipeg&date=30.08.2020
 ```
