@@ -18,3 +18,16 @@ Manitoba covid case breakdown by health region
 ```
 https://api.covidmanitoba.ca/recoveries/json?region=winnipeg&date=30.08.2020
 ```
+#### Sample Response
+
+```
+    {
+      "results":
+      {
+        "date":"August 30th, 2020",
+        "Total cases:":"123,858",
+        "Recovered":"89,232",
+      },
+       "status":"success"
+    }
+```
