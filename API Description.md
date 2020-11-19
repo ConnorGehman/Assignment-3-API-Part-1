@@ -8,6 +8,7 @@ Manitoba covid case breakdown by health region
 #### Endpoints: 
 
 * GET method 1: get all covid case recoveries in Manitoba. Parameters: health regions
+  * {"message": "https://images.dog.ceo/breeds/eskimo/n02109961_16961.jpg", "status": "success"}
 
 * GET method 2: get covid case breakdown by health regions. Parameters: health regions
 
