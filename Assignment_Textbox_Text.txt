@@ -1,0 +1,8 @@
+Github Repo:
+https://github.com/ConnorGehman/Assignment-3-API-Part-1
+
+Group Usernames:
+Connor Gehman     - ConnorGehman
+Quoc Nguyen       - QuocViNguyen
+Jiachi Sun        - Sun1030
+Sebastian Araneda - sebaraneda
