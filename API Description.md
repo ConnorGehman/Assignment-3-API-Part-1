@@ -3,14 +3,6 @@
 
 #### description : The Manitoba Covid Tracker API can be used to programmatically retrieve and analyze data relate to the current Covid situation in the Manitoba province.
 
-
-https://dog.ceo/dog-api/documentation/
-
-
-Cases
-Deaths
-Recoveries
-
  
 Manitoba covid case breakdown by health region
 ##### Options: 
