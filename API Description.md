@@ -22,7 +22,7 @@ Manitoba covid case breakdown by health region
 * GET method 3: get covid deaths and hospitalizations. parameters: health regions
 
 
-###### Get Recovery
+###### Get Covid Recoveries
 ```
-https://api.covidmanitoba.ca/recovery/json?region=winnipeg&date=30.08.2020
+https://api.covidmanitoba.ca/recoveries/json?region=winnipeg&date=30.08.2020
 ```
