@@ -1,33 +1,21 @@
 
 ## Manitoba Covid Tracker API
 
-#### description : The Manitoba Covid Tracker API can be used to programmatically retrieve and analyze data relate to the current Covid situation in the Manitoba province.
+#### API Description  
+The Manitoba Covid Tracker API can be used to programmatically retrieve and analyze data relate to the current Covid situation in the Manitoba province.
 
- 
+
 Manitoba covid case breakdown by health region
-##### Options: 
+#### Endpoints  
+* GET method 1: get all covid case recoveries in Manitoba. parameters: health regions (***optional***), time (dd.mm.yyyy) (***optional***)
+  * Description
 
-* GET method 1: get all covid case recoveries in Manitoba. parameters: health regions (***optional***), to date (dd.mm.yyyy) (***optional***)
-
-* GET method 2: get covid case breakdown by Manitoba health regions. parameters: from date (dd.mm.yyyy) (***optional***), to date (dd.mm.yyyy) (***optional***)
+* GET method 2: get covid case breakdown by health regions. parameters: health regions
 
 * GET method 3: get covid deaths and hospitalizations. parameters: health regions
 
 #### Sample Request
 ###### Get Recoveries
 ```
-https://api.covidmanitoba.ca/recoveries/json?region=winnipeg&date=30.08.2020
-```
-#### Sample Response
-
-```
-    {
-      "results":
-      {
-        "date":"August 30th, 2020",
-        "Total cases:":"123,858",
-        "Recovered":"89,232",
-      },
-       "status":"success"
-    }
+https://api.covidmanitoba.ca/recoveries/json?region=bisonnorth&time=30.08.2020
 ```
