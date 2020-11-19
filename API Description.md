@@ -13,7 +13,7 @@ Recoveries
 
  
 Manitoba covid case breakdown by health region
-##### Options: 
+#### Endpoints: 
 
 * GET method 1: get all covid case recoveries in Manitoba. parameters: health regions
 
