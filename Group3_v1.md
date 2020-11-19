@@ -1,4 +1,3 @@
-
 ## Manitoba Covid Tracker API
 
 #### Description  
