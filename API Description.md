@@ -1,7 +1,8 @@
 
 ## Manitoba Covid Tracker API
 
-#### Description : The Manitoba Covid Tracker API can be used to programmatically retrieve and analyze data relate to the current Covid situation in the Manitoba province.
+#### Description  
+The Manitoba Covid Tracker API can be used to programmatically retrieve and analyze data relate to the current Covid situation in the Manitoba province.
 
  
 Manitoba covid case breakdown by health region
