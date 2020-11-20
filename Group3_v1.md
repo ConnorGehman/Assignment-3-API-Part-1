@@ -5,7 +5,6 @@ The Manitoba Covid Tracker API can be used to programmatically retrieve and anal
 
 The API provides a summary of covid cases, recoveries, deaths, and hospitalization across the province.
  
-Manitoba covid case breakdown by health region
 #### Endpoints: (all GET requests)
 ##### Get all Covid cases in Manitoba  
 - Parameters: 
