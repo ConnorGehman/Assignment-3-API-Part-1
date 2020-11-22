@@ -5,7 +5,7 @@ The Manitoba Covid Tracker API provides a summary of covid cases, recoveries, de
  
 #### Endpoints: (all GET requests)
 ##### Get all Covid cases in Manitoba  
-This endpoint will retrieve all covid cases from a requested health region within a specified date range. If no regions or dates are requested, it will retrieve all covid cases in Manitoba for the current date. 
+This endpoint will retrieve all covid cases from a requested health region within a specified date range. If no regions or dates are requested, it will retrieve all recorded covid cases in Manitoba up to the current date. 
 - Parameters: 
   - **region** (string): health regions (***optional***)
   - **fromdate** (string): from date (dd.mm.yyyy) (***optional***)
@@ -30,7 +30,7 @@ This endpoint will retrieve all covid cases from a requested health region withi
   
   
 ##### Get all Covid case recoveries in Manitoba  
-This endpoint will retrieve all covid case recovieries from a requested health region at a specified date. If no regions or dates are requested, it will retrieve all covid case recoveries in Manitoba at the current date.
+This endpoint will retrieve all covid case recovieries from a requested health region at a specified date. If no regions or dates are requested, it will retrieve all recorded covid cases in Manitoba up to the current date.
 - Parameters: 
   - **region** (string): health regions (***optional***)
   - **todate** (string): to date (dd.mm.yyyy) (***optional***)
@@ -53,7 +53,7 @@ This endpoint will retrieve all covid case recovieries from a requested health r
   
 
 ##### Get Covid deaths and hospitalizations  
-This endpoint will retrieve all deaths and hospitalizations caused by Covid from the requested health region.
+This endpoint will retrieve all deaths and hospitalizations caused by Covid from the requested health region. If no region is selected, all regions in Manitoba will be returned.
 - Parameters: 
   - **region** (string): health regions
 - Sample Request: 
