@@ -72,6 +72,3 @@ This endpoint will retrieve all deaths and hospitalizations caused by Covid from
          "status":"success"
       }
   ```
-
-
-
