@@ -30,7 +30,7 @@ This endpoint will retrieve all covid cases from a requested health region withi
   
   
 ##### Get all Covid case recoveries in Manitoba  
-This endpoint will retrieve all covid case recovieries from a requested health region at a specified date. If no regions or dates are requested, it will retrieve all recorded covid cases in Manitoba up to the current date.
+This endpoint will retrieve all covid case recoveries from a requested health region at a specified date. If no regions or dates are requested, it will retrieve all recorded covid cases in Manitoba up to the current date.
 - Parameters: 
   - **region** (string): health regions (***optional***)
   - **todate** (string): to date (dd.mm.yyyy) (***optional***)
